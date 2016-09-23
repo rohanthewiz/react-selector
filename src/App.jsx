@@ -23,8 +23,9 @@ class App extends React.Component {
     // };
 
     return (
-      <div id="inferno_app">
+      <div id="app">
         <h2>A Simple and easily customizable selector for React</h2>
+        <strong>(Note: because there is no database backend here, for now, the page has to be reloaded after each search)</strong>
         <AssetSelector
           // loadOptions={doFetch}
           minimumInput={2}

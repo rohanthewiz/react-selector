@@ -54,7 +54,7 @@ class AssetSelector extends React.Component {
       items: [{label: "Option 1", value: "value_1"},
         {label: "Option 2", value: "value_2"},
         {label: "Option 3", value: "value_3"},
-        {label: "Mason Owens", value: "value_4"},
+        {label: "Mary Jane", value: "value_4"},
         {label: "John Brown", value: "value_5"},
         {label: "Derrek", value: "value_6"},
         {label: "Charlie", value: "value_7"},
@@ -64,6 +64,7 @@ class AssetSelector extends React.Component {
 
   render() {
     // Methods placed here are part of the render closure and so can be passed straight to children
+
     // Callback for Drop down clicked
     const setSelected = (val) => {
       this.setState({value: val, inputVisible: false, dropdown_visible: false});
